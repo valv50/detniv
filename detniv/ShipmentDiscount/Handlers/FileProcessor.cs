@@ -18,6 +18,7 @@ namespace ShipmentDiscount.Handlers
             DateTime? date;
             string packageSize;
             string shippingProviderCode;
+
             List<(string packageSize, string shippingProviderCode, DateTime date, int shipmentNumber)> shipmentNumbers = 
                 new List<(string packageSize, string shippingProviderCode, DateTime date, int shipmentNumber)>();
 
@@ -144,7 +145,6 @@ namespace ShipmentDiscount.Handlers
                     }
                     )
                 }
-
                 );
 
             shippingProcessor.SetRules(rules);

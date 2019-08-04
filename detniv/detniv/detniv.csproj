@@ -49,9 +49,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="FileProcessor\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ShipmentDiscount\ShipmentDiscount.csproj">
       <Project>{8feaea3f-285c-40f6-9c05-c310ad1a8692}</Project>
