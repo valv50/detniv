@@ -8,10 +8,8 @@ namespace ShipmentDiscount.Entities
 {
     public class ShippingProvider
     {
-        public string Providerode { get; set; }
+        public string providerCode { get; set; }
 
-        public decimal Price { get; set; }
-
-        public string PackageSize { get; set; }
+        public List<(string packageSize, decimal price)> prices = new List<(string packageSize, decimal price)>();
     }
 }

@@ -8,8 +8,12 @@ namespace ShipmentDiscount.Entities
 {
     public class ShippingItem
     {
-        DateTime date { get; set; }
+        public DateTime? date { get; set; }
 
-        public string Providerode { get; set; }
+        public string packageSize { get; set; }
+
+        public string providerCode { get; set; }
+
+        public int shippingNumber { get; set; }
     }
 }

@@ -1,5 +1,4 @@
-﻿using ShipmentDiscount.Interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,14 +8,12 @@ namespace ShipmentDiscount.Entities
 {
     public class ShippingContext
     {
-        public int ShippingNumber { get; set; }
+        public ShippingItem shippingItem { get; set; }
 
-        public decimal TotalDiscount { get; set; }
+        public decimal totalDiscount { get; set; }
 
-        public decimal Price { get; set; }
+        public ProcessingResult processingResult { get; set; }
 
-        public IShippingProvider ShippingProvider { get; set; }
-
-        public List<IShippingProvider> ShippingProviders { get; set; }
+        public List<ShippingProvider> shippingProviders { get; set; }
     }
 }

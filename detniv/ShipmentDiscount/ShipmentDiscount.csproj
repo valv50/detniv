@@ -41,12 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\ProcessingResult.cs" />
     <Compile Include="Entities\ShippingContext.cs" />
     <Compile Include="Entities\ShippingItem.cs" />
     <Compile Include="Entities\ShippingProvider.cs" />
-    <Compile Include="Helper\Common.cs" />
-    <Compile Include="Helper\Rule.cs" />
-    <Compile Include="Interfaces\IShippingProvider.cs" />
+    <Compile Include="Handlers\FileProcessor.cs" />
+    <Compile Include="Handlers\ShippingProcessor.cs" />
+    <Compile Include="Helpers\Common.cs" />
+    <Compile Include="Helpers\Rule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
