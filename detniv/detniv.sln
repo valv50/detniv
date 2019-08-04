@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "detniv", "detniv\detniv.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentDiscount", "ShipmentDiscount\ShipmentDiscount.csproj", "{8FEAEA3F-285C-40F6-9C05-C310AD1A8692}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentDiscount.Test", "UnitTestProject1\ShipmentDiscount.Test.csproj", "{A098B2A1-D81C-4465-8B42-DD1CADBEA721}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShipmentDiscount.Test", "ShippingProcessorTest\ShipmentDiscount.Test.csproj", "{A098B2A1-D81C-4465-8B42-DD1CADBEA721}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
